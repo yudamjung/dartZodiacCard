@@ -10,6 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Character());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Zodiac App',
+      home: Character(),
+    );
   }
 }
